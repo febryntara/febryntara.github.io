@@ -1,0 +1,9 @@
+#con-conay {
+    margin-left: 62%;
+}
+
+@media (max-width:1000px) {
+    #con-conay {
+        margin-left: inherit;
+    }
+}
