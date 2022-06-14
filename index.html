@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio | Febryntara</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,900;1,200;1,400;1,600;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./asset//css/output.css" />
+    <style>
+      :root {
+        --animate-duration: 200ms;
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="font-poppins">
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <div class="h-14" id="home"></div>
+    <div class="mt-16">
+      <div class="grid lg:grid-cols-2 items-center p-3 box-border">
+        <div class="text-left lg:pl-16">
+          <h2 class="text-xl lg:text-2xl text-secondary">
+            Hello, I am
+            <br />
+            <span class="text-primary text-2xl lg:text-3xl"
+              >Bagus Febryntara</span
+            >
+            <br />
+            <span class="text-lg text-primary font-light">
+              Student of
+              <span class="font-normal"> Bali State Polytechnic </span>
+            </span>
+          </h2>
+          <p class="text-sm lg:text-lg mt-3 font-light">
+            I am a student in Bali State Polytechnic majoring in Electrical
+            Engineering with concentration Informatics Management. I like
+            working as a backend web developer, because I want to focus on it.
+            currently the technology i use are laravel and tailwindcss
+          </p>
+        </div>
+        <div class="w-full">
+          <img
+            src="./asset/img/blobnme.png"
+            class="block w-full object-cover object-center"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="h-14" id="about"></div>
+    <div
+      class="mt-3 bg-primary text-tertiary p-3 box-border lg:grid lg:grid-cols-2"
+    >
+      <div>
+        <h2
+          class="text-2xl lg:text-3xl text-left underline decoration-2 underline-offset-8 text-tertiary font-semibold mt-5"
+        >
+          About Me
+        </h2>
+        <p class="text-sm lg:text-lg mt-3 font-light">
+          I am a student in Bali State Polytechnic majoring in Electrical
+          Engineering with concentration Informatics Management. I like working
+          as a backend web developer, because I want to focus on it. currently
+          the technology i use are laravel and tailwindcss
+        </p>
+        <div hidden class="mt-4 lg:block">
+          <span class="text-xl capitalize">reach me on social media</span>
+          <div class="mb-5 grid gap-2">
+            <a
+              id="instagram"
+              href="https://www.instagram.com/febryntaraaa/"
+              target="_blank"
+              class="relative w-9 h-9 mr-3 rounded-full bg-primary flex justify-center items-center border border-tertiary hover:border-secondary hover:bg-secondary hover:text-white transition duration-300 ease-in-out group"
+              ><i class="absolute fa-brands fa-instagram"></i>
+              <span
+                class="order-1 absolute pl-2 left-[100%] animate__animated animate__lightSpeedOutRight"
+                id="instagram-alt"
+                >@febryntaraaa</span
+              >
+            </a>
+            <a
+              id="github"
+              href="https://www.github.com/febryntara/"
+              target="_blank"
+              class="relative w-9 h-9 mr-3 rounded-full bg-primary flex justify-center items-center border border-tertiary hover:border-secondary hover:bg-secondary hover:text-white transition duration-300 ease-in-out group"
+              ><i class="absolute fa-brands fa-github"></i>
+              <span
+                class="order-1 absolute pl-2 left-[100%] animate__animated animate__lightSpeedOutRight"
+                id="github-alt"
+                >febryntara</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-4">
+        <span class="text-xl capitalize">technology ever used</span>
+        <div class="grid grid-cols-4 lg:grid-cols-7 gap-y-2 items-center -mt-4">
+          <img
+            class="block w-full"
+            src="http://lofrev.net/wp-content/photos/2017/05/php_emblem.png"
+            alt="php"
+            loading="lazy"
+          />
+          <img
+            class="block w-full col-span-2"
+            src="https://glints.com/id/lowongan/wp-content/uploads/2020/10/JQuery-Logo.wine_.png"
+            alt="php"
+            loading="lazy"
+          />
+          <img
+            class="block w-full"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
+            alt="php"
+            loading="lazy"
+          />
+          <img
+            class="block w-full col-span-2"
+            src="https://miro.medium.com/max/800/1*mUISLg4ghf6QYT_f1-cnlg.png"
+            alt="php"
+            loading="lazy"
+          />
+          <img
+            class="block w-full col-span-2"
+            src="https://duniacoding.info/wp-content/uploads/2021/12/laravel_logo_icon_170314.png"
+            alt="php"
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <div class="mt-4 lg:hidden">
+        <span class="text-xl capitalize">reach me on social media</span>
+        <div class="mb-5 grid gap-2">
+          <a
+            id="instagram"
+            href="https://www.instagram.com/febryntaraaa/"
+            target="_blank"
+            class="relative w-9 h-9 mr-3 rounded-full bg-primary flex justify-center items-center border border-tertiary hover:border-secondary hover:bg-secondary hover:text-white transition duration-300 ease-in-out group"
+            ><i class="absolute fa-brands fa-instagram"></i>
+            <span
+              class="order-1 absolute pl-2 left-[100%] animate__animated animate__lightSpeedOutRight"
+              id="instagram-alt"
+              >@febryntaraaa</span
+            >
+          </a>
+          <a
+            id="github"
+            href="https://www.github.com/febryntara/"
+            target="_blank"
+            class="relative w-9 h-9 mr-3 rounded-full bg-primary flex justify-center items-center border border-tertiary hover:border-secondary hover:bg-secondary hover:text-white transition duration-300 ease-in-out group"
+            ><i class="absolute fa-brands fa-github"></i>
+            <span
+              class="order-1 absolute pl-2 left-[100%] animate__animated animate__lightSpeedOutRight"
+              id="github-alt"
+              >febryntara</span
+            >
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="h-14" id="projects"></div>
+    <div class="p-3 box-border mt-4">
+      <h2
+        class="text-2xl lg:text-3xl text-left underline decoration-2 underline-offset-8 text-primary font-semibold mt-5 mb-4"
+      >
+        My Projects
+      </h2>
+      <div class="grid lg:grid-cols-2 gap-4 mt-4">
+        <div
+          class="box-border flex flex-wrap p-5 bg-tertiary rounded-lg drop-shadow-lg group hover:bg-primary transition duration-300 ease-in-out"
+        >
+          <div class="lg:w-1/2 flex items-center">
+            <img
+              src="./asset/img/adamjyota.png"
+              alt="project 1"
+              class="rounded-md"
+            />
+          </div>
+          <div class="lg:w-1/2 p-3">
+            <h2
+              class="font-bold text-primary text-3xl mb-1 max-w-md lg:text-lg group-hover:text-secondary-darken transition duration-300 ease-in-out"
+            >
+              Adamjyota
+            </h2>
+            <p
+              class="font-medium text-base text-primary group-hover:text-tertiary max-w-xl lg:text-sm mb-5"
+            >
+              Created a E-commerce for Adam Jyota Manajemen. I create this
+              project using Laravel 9, Tailwindcss and Jquery. In this project,
+              my role is Back End Developer.
+            </p>
+            <a
+              target="_blank"
+              class="block w-[150px] origin-center box-border bg-primary text-tertiary text-center rounded-full px-3 py-2 transition-all ease-in-out group-hover:w-full group-hover:bg-secondary-darken group-hover:text-tertiary"
+              >On Progress</a
+            >
+          </div>
+        </div>
+        <div
+          class="box-border flex flex-wrap p-5 bg-tertiary rounded-lg drop-shadow-lg group hover:bg-primary transition duration-300 ease-in-out"
+        >
+          <div class="lg:w-1/2 flex items-center">
+            <img
+              src="./asset/img/colleagrams.png"
+              alt="project 2"
+              class="rounded-md"
+            />
+          </div>
+          <div class="lg:w-1/2 p-3">
+            <h2
+              class="font-bold text-primary text-3xl mb-1 max-w-md lg:text-lg group-hover:text-secondary-darken transition duration-300 ease-in-out"
+            >
+              ColleGrams
+            </h2>
+            <p
+              class="font-medium text-base text-primary group-hover:text-tertiary max-w-xl lg:text-sm mb-5"
+            >
+              Created a Social Media for Final Project in Web Programming 2
+              Course. I create this project using Laravel 9 and Tailwindcss,
+              also using Publisher for realtime notifications and Jquery AJAX
+            </p>
+            <a
+              href="http://colleagegram.herokuapp.com/home"
+              target="_blank"
+              class="block w-[150px] origin-center box-border bg-primary text-tertiary text-center rounded-full px-3 py-2 transition-all ease-in-out group-hover:w-full group-hover:bg-secondary-darken group-hover:text-tertiary"
+              >View Project</a
+            >
+          </div>
+        </div>
+        <div
+          class="box-border flex flex-wrap p-5 bg-tertiary rounded-lg drop-shadow-lg group hover:bg-primary transition duration-300 ease-in-out"
+        >
+          <div class="lg:w-1/2 flex items-center">
+            <img
+              src="./asset/img/intechfest.png"
+              alt="project 2"
+              class="rounded-md"
+            />
+          </div>
+          <div class="lg:w-1/2 p-3">
+            <h2
+              class="font-bold text-primary text-3xl mb-1 max-w-md lg:text-lg group-hover:text-secondary-darken transition duration-300 ease-in-out"
+            >
+              Intechfest
+            </h2>
+            <p
+              class="font-medium text-base text-primary group-hover:text-tertiary max-w-xl lg:text-sm mb-5"
+            >
+              Created a Website for Intechfest 2021. One of nasional competition
+              activity on my campus. This website give all informations about
+              Intechfest, handle registration competition, and payment. In this
+              project, My role is Front End Developer. I create this project
+              using Html, Css, Jquery and Bootstrap 5.
+            </p>
+            <a
+              href="https://intechfest.com"
+              target="_blank"
+              class="block w-[150px] origin-center box-border bg-primary text-tertiary text-center rounded-full px-3 py-2 transition-all ease-in-out group-hover:w-full group-hover:bg-secondary-darken group-hover:text-tertiary"
+              >View Project</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="p-3 pt-8 pb-4 box-border mt-4 bg-primary text-tertiary flex-wrap lg:flex text-sm font-light lg:hidden"
+    >
+      <div class="flex justify-start items-center gap-x-2">
+        <i class="fa-solid fa-envelope"></i>
+        <span>febryntarabagus@gmail.com</span>
+      </div>
+      <div class="flex justify-start items-center gap-x-2">
+        <i class="fa-solid fa-phone"></i>
+        <span>+62-813-5378-3536</span>
+      </div>
+    </div>
+    <div class="bg-primary text-slate-600 text-center py-2">
+      © 2022 Febryntara. All rights reserved.
+    </div>
+
+    <nav
+      class="fixed w-full top-0"
+      x-data="{open:false,menu:false, lokasi:false}"
+    >
+      <div class="relative bg-primary shadow">
+        <div
+          class="flex justify-between bg-primary mx-auto px-2 sm:px-4 lg:px-8"
+        >
+          <div class="relative flex w-full items-center justify-between h-16">
+            <div class="flex w-full justify-between items-center px-2 lg:px-0">
+              <a
+                class="flex-shrink-0 text-2xl lg:text-3xl text-tertiary"
+                href="#"
+              >
+                Portofolio
+              </a>
+              <div class="hidden lg:block lg:ml-2">
+                <div class="flex text-center">
+                  <a
+                    href="#home"
+                    class="block w-full text-center ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-tertiary hover:bg-primary-lighten hover:text-tertiary transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700"
+                  >
+                    Home
+                  </a>
+                  <a
+                    href="#about"
+                    class="block w-full text-center ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-tertiary hover:bg-primary-lighten hover:text-tertiary transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700"
+                  >
+                    About
+                  </a>
+                  <a
+                    href="#projects"
+                    class="block w-full text-center ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-tertiary hover:bg-primary-lighten hover:text-tertiary transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700"
+                  >
+                    Projects
+                  </a>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=6281353783536"
+                    target="_blank"
+                    class="block w-full text-center ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-tertiary hover:bg-primary-lighten hover:text-tertiary transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700"
+                  >
+                    Contact
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex-1 flex justify-center px-2 lg:ml-6 lg:justify-end"
+            ></div>
+            <div class="flex lg:hidden">
+              <button
+                @click="menu=!menu"
+                class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white transition duration-150 ease-in-out"
+                aria-label="Main menu"
+                aria-expanded="false"
+              >
+                <svg
+                  class="block h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+                <svg
+                  class="hidden h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div x-show="menu" class="block md:hidden">
+          <div class="px-2 pt-2 pb-3">
+            <a
+              href="#"
+              class="mt-1 block text-center px-3 py-2 rounded-md text-white font-semibold hover:bg-yellow-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+              >Home
+            </a>
+            <a
+              href="#about"
+              class="mt-1 block text-center px-3 py-2 rounded-md text-white font-semibold hover:bg-yellow-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+              >About
+            </a>
+            <a
+              href="#projects"
+              class="mt-1 block text-center px-3 py-2 rounded-md text-white font-semibold hover:bg-yellow-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+              >Projects
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=6281353783536"
+              target="_blank"
+              class="mt-1 block text-center px-3 py-2 rounded-md text-white font-semibold hover:bg-yellow-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+              >Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/13696713a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $("#instagram").mouseenter(function () {
+        $("#instagram-alt").removeClass("animate__lightSpeedOutRight");
+        $("#instagram-alt").addClass("animate__lightSpeedInRight");
+      });
+      $("#instagram").mouseleave(function () {
+        $("#instagram-alt").addClass("animate__lightSpeedOutRight");
+        $("#instagram-alt").removeClass("animate__lightSpeedInRight");
+        console.log("ok");
+      });
+      $("#github").mouseenter(function () {
+        $("#github-alt").removeClass("animate__lightSpeedOutRight");
+        $("#github-alt").addClass("animate__lightSpeedInRight");
+      });
+      $("#github").mouseleave(function () {
+        $("#github-alt").addClass("animate__lightSpeedOutRight");
+        $("#github-alt").removeClass("animate__lightSpeedInRight");
+        console.log("ok");
+      });
+    </script>
+    <link rel="text/html" href="./style.html" />
+  </body>
+</html>

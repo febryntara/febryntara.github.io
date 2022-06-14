@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "builder": "npx tailwindcss -i ./asset/css/input.css -o ./asset/css/output.css --watch"
+  }
+}
